@@ -1,0 +1,84 @@
+
+    .all{
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+    .second_video video{
+        display: grid;
+        grid-column: 1;
+        grid-row-gap: 20px; 
+        height: 250px;
+    }
+    .second_video{
+        display: grid;
+        grid-template-rows: repeat(1fr,8);
+        grid-row-gap: 20px;
+        float: right;
+        margin-left: 58%;
+    }
+    section{
+        display: grid;
+        grid-template-rows: 1/3fr 1/3fr auto;
+        grid-row-gap: 20px; 
+    }
+    .under_vid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0%;
+    }
+    .button_under_vid{
+        display: inline-block;
+    }
+    .fa-facebook,.fa-instagram,.fa-twitch{
+       text-decoration: none;
+    }
+    .rel_vid{
+        margin-left: 40%;
+    }
+    .button_under_vid{
+        display: inline;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+         grid-column-gap: 25px;
+    }
+    .ph_com{
+        height: 50px;
+        width: 50px;
+        border-radius: 12%;
+    }
+    .under_desc{
+        display: grid;
+        grid-template-columns: 1/3fr;
+    }
+    .com_rel{
+         display: grid;
+         grid-template-columns: 1/3fr 2/3fr;
+    }
+    .all_comments{
+        border: outset 3px black;
+        display: grid;
+        grid-template-columns: 1/6fr;
+    }
+    .searchbar{
+        padding-left: 30%;
+        padding-bottom: 10px;
+       }
+       nav{
+           margin-top: 10px;
+        margin-left:10px;
+        width: 80%;
+       }
+       .second_video{
+           margin-left: -20px;
+       }
+       .second_video video{
+           width: 350px;
+           margin-left: 75px;
+       }
+       .main_video{
+            width: 80%;
+            margin-left: 25px;
+       }
+       .logo{
+        margin-left: 40%;
+    }

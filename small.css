@@ -1,0 +1,32 @@
+    #all{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr;
+    }
+    header{
+        width: 82%;
+    }
+    nav{
+       margin-left: -40px;
+       width: 95%;
+    }
+    section{
+        display: block;
+    }
+    article{
+        display: block;
+        padding-left: 10%;
+    }
+    video{
+        width: 250px;
+    }
+    img{
+        padding-left: 27%;
+    }
+    .searchbar{
+     padding-left: 20%;
+     padding-bottom: 10px;
+    }
+    .searchbar input{
+      width: 200px;
+    }

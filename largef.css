@@ -1,0 +1,52 @@
+@media screen and (min-width:750px) {
+#all{
+    display: grid;
+    grid-template-rows: 1/3fr 1/3fr 3fr 1/3fr;
+    grid-row-gap: 20px;
+
+}
+section article img{
+    width: 300px;
+   height: 250px;
+   border-radius: 23%;
+   border: 3px white solid;
+}
+section article img:hover{
+    border: 3px red solid;
+}
+#part1{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-column-gap: 25px;
+}
+.firstp{
+    text-align: center;
+    background-color: red;
+    color: black;
+    font-size: 30px;
+    width: 400px;
+}
+section article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.des{
+    text-align: center;
+}
+nav{
+    position: fixed;
+}
+section{
+    padding-left: 20%;
+    height: auto;
+
+}
+.searchbar{
+    padding-left: 40%;
+    padding-bottom: 10px;
+   }
+   .logo{
+       margin-left: 0%;
+   }
+}

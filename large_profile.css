@@ -1,0 +1,93 @@
+@media screen and (min-width:750px) {
+.profile_picture{
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
+    border-radius: 60%;
+    border: solid white 2px;
+}
+.profile_picture:hover{
+    border: solid red 2px;
+}
+.well{
+    padding-left: 26%;
+    font-size: 1.4em;
+}
+table{
+    background-color: red;
+    color: black;
+    width: 900px;
+    border-radius: 12%;
+}
+table tr td{
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+
+}
+section article video{
+    height: 250px;
+}
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 50px;
+}
+.burn{
+    background-color: red;
+    color: black;
+    font-size: 30px;
+    display: block;
+
+}
+table tr td a{
+    text-decoration: none;
+}
+.pl1{
+    text-align: center;
+    color: black;
+    background-color: red;
+    font-size: 35px;
+}
+nav{
+    position: fixed;
+}
+section{
+    padding-left: 20%;
+
+}
+footer{
+        margin-left: 0%;
+}
+nav{
+    margin-top: 65px;
+    margin-left: -20px;
+    width: 15%;
+ }
+ header{
+    width: 100%;
+    text-align: center;
+}
+.profile_picture{
+   margin-left: 24%;
+}
+.pl1{
+    width: 150%;
+    margin-left: -50%;
+}
+.burn{
+    width: 150%;
+    margin-left: -50%;
+}
+table{
+    background-color: red;
+    color: black;
+    width: 80%;
+    border-radius: 12%;
+}
+.logo{
+    margin-left: 0%;
+}
+}

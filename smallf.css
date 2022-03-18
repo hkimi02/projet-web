@@ -1,0 +1,41 @@
+#all{
+    display: grid;
+    grid-template-rows: 1/3fr 1/3fr 8fr 1/3fr;
+    grid-template-columns: 1fr;
+}
+#part1{
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+section article{
+    display: block;
+ }
+    section article img{
+        width: 300px;
+       height: 250px;
+       border-radius: 23%;
+       border: 3px white solid;
+    }
+    section article img:hover{
+        border: 3px red solid;
+    }
+    .firstp{
+        text-align: center;
+        background-color: red;
+        color: black;
+        font-size: 30px;
+        width: 400px;
+    }
+    .des{
+        text-align: center;
+    }
+    .searchbar{
+        padding-left: 15%;
+        padding-bottom: 10px;
+       }
+       nav a{
+           margin-left: -10px;
+       }
+       .logo{
+        margin-left: 40%;
+    }

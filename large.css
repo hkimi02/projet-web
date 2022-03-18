@@ -1,0 +1,59 @@
+@media screen and (min-width:750px){   
+#all{
+    display: grid;
+    grid-template-rows: 1/3fr 2/3fr 6fr 1/3fr 1/3fr;
+    grid-row-gap: 50px;
+}
+section{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-row-gap: 20px; 
+    margin-left: 7%;
+}
+nav{
+    position: fixed;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+}
+#part1{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding-left: 0%;
+    grid-column-gap:20px;
+}
+img{
+    padding-left: 0%;
+}
+video{
+    width: 250px;
+   height: 250px;
+}
+nav{
+    position: fixed;
+}
+section{
+    padding-left: 20%;
+
+}
+.video:hover{
+    transform:scale(1.5);
+    width: 200px;
+    height: 200px;
+    border: red;
+}
+nav{
+    width: 20%;
+    margin-left: 10px;
+}
+header{
+    width: 100%;
+}
+.searchbar{
+    padding-left: 40%;
+    padding-bottom: 10px;
+   }
+
+}

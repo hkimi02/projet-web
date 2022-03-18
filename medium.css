@@ -1,0 +1,9 @@
+@media screen and (min-width:450px) {
+
+video{
+    width: 500px;
+}
+section{
+    display: block;
+}
+}

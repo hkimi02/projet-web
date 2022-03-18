@@ -1,0 +1,37 @@
+.all{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.form2{
+    display: block;
+    margin-top: 12%;
+}
+.ai{
+ margin-left: 25%;
+}
+fieldset{
+    border-color: red;
+    border-radius: 12%;
+    width: 600px;
+}
+.com{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+}
+legend{
+    text-align: center;
+    background-color: red;
+    color: black;
+}
+.env{
+    margin-left: 55%;
+    display: block;
+}
+.form1{
+     margin-top: 100%;
+}
+.logo{
+    margin-left: 40%;
+}

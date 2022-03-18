@@ -1,0 +1,95 @@
+@media screen and (min-width:750px){
+.form1,.form2{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-row-gap: 100px;
+   padding-left: 390px;
+   font-size: 20px;
+   height: 600px;
+}
+.form1 div{
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+
+}
+fieldset{
+    border-color: red;
+    border-radius: 12%;
+    width: 600px;
+}
+input{
+    width: 250px;
+    border-radius: 20%;
+    border-color: red;
+}
+input:focus{
+    background-color: red;
+    color: black;
+}
+legend{
+    text-align: center;
+    background-color: red;
+    color: black;
+}
+.env{
+    margin-left: 55%;
+}
+.com:after{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes  animate {  
+     10%{content: 'join';}
+     25%{content:'our' }
+     50%{content:'community'}
+     75%{content:'now'}
+ }
+.com{
+    padding-left: 45%;
+    position: sticky;
+}
+.all{
+  display: grid;
+  grid-template-rows: 1/3fr 8fr 1/3fr;
+}
+.part2{
+    display: grid;
+    grid-template-columns:1fr 8fr; 
+}
+.sign{
+    padding-left: 12%;
+}
+section{
+    display: grid;
+    grid-template-rows: 5/6 auto;
+}
+.form2{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.com{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+}
+.am{
+    text-decoration: none;
+}
+.te{
+    font-size: 30px;
+}
+.ai{
+    padding-left: 30%;
+}
+.button_in{
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+}
+section{
+    padding-left: 20%;
+}
+}

@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    background-color: #282828;
+    color: red;
+    font-family: Play;
+
+}
+*::selection{
+    background-color: red;
+}
+header h1,footer h1,a{
+    background-color: red;
+    color: black;
+    border: red 2px outset;
+    border-radius: 6%;
+    text-align: center;
+    position:static;
+}
+@keyframes color_title{
+    0%  {color: red ;
+        background-color:black;
+    }
+    100% {background-color: red;
+        color: black;
+    }
+}
+header h1{
+    animation-name: color_title;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+footer a{
+  text-decoration: none;
+}
+video{
+    box-shadow: inset darkred;
+}
+video{
+   border: outset;
+   border-radius: 12%;
+}
+video,.video_img:hover{
+   border-color: red;
+}
+footer{
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li a{
+text-decoration: none;
+background-color: red;
+color: black;
+border: outset solid 10px red;
+display: block;
+text-align: center;
+height: 40px;
+border-radius: 20%;
+}
+.searchbar{
+    padding-left: 40%;
+}
+.searchbar input{
+    height: 30px;
+    width : 300px;
+}
+nav ul li a:hover{
+    color: white;
+}
+input{
+    border-radius: 12%;
+
+}
+input:focus{
+    background-color: red;
+    color: black;
+}
+button{
+    border-radius: 12%;
+    width: 150px;
+    font-size: 15px;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    border-radius: 12%;
+}
+::-webkit-scrollbar-button,::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 12%;
+}
+::-webkit-scrollbar-thumb{
+    height: 250px;
+}
+  
